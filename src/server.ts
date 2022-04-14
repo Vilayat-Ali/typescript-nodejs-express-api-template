@@ -20,8 +20,10 @@ app.use(helmet());
 // importing API routes
 import helloRoute from './routes/hello';
 
+// Mapping out the routes here
 app.use('/api/v1/hello', helloRoute);
 
+// App listening here
 app.listen(port, () => {
     consola.success({
         message: `Server rolling on ${port} 🚀🚀`,
