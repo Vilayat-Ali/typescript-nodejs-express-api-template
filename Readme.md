@@ -8,6 +8,7 @@ The Typescript-Nodejs-Express-Template is a ready to code template build for fas
 - Includes typescript and server scripts all setup.
 - Additional support for mongoDB with mongoose.
 - Separated business logic and routing in the express app.
+- Pre-configured and ready-to-use authentication system.
 
 # Packages
 
@@ -18,3 +19,4 @@ The Typescript-Nodejs-Express-Template is a ready to code template build for fas
 - mongoose
 - Helmet
 - cors
+- JSONWebToken

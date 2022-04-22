@@ -31,7 +31,7 @@ app.use(helmet());
 app.use(morgan(':method :url :status :res[content-length] - :response-time ms'));
 
 // importing API routes
-import accountRoute from "./routes/account.route";
+import accountRoute from "./route/account.route";
 
 
 // Mapping out the routes here
