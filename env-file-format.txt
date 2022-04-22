@@ -1,0 +1,4 @@
+ACCESS_TOKEN_SECRET = "access token secret" 
+REFRESH_TOKEN_SECRET = "refresh token secret"
+ACCESS_TOKEN_EXPIRATION_TIME_LIMIT = a number (time will be in hours)
+DB_URI="mongodb connection string"
